@@ -1,7 +1,99 @@
-/*
-white: #f7f9f9;
-light-blue: #2081c3;
-dark-blue: #0a2c42;
-grey: #bfbfbf;
-font-family: Arial, Helvetica, sans-serif;
-*/
+* {
+  white: #f7f9f9;
+  light-blue: #2081c3;
+  dark-blue: #0a2c42;
+  grey: #bfbfbf;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #556677;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+}
+
+/* unvisited link */
+a:link {
+  color: #b5b9bb;
+  transition: O.5s;
+}
+
+/* visited link */
+a:visited {
+  color: #b5b9bb;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: #b5b9bb;
+}
+
+img {
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-position: center;
+  background-size: cover;
+  margin: 10rem;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttons {
+}
+
+.fancy-undeline {
+  background-image: linear-gradient(120deg, #757f9a, #d7dde8 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.1em;
+  background-position: 0 90%;
+  transition: background-size 0.25s ease-in;
+}
+
+.fancy-undeline:hover {
+  background-size: 100% 88% !important;
+}
+
+#beerpictures {
+  height: 30rem;
+  width: 10rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card p {
+  width: 20rem;
+  text-align: center;
+}
+
+.beerdescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+}

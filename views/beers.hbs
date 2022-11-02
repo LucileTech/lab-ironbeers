@@ -1,0 +1,9 @@
+
+<div class='container'>
+  {{#each beers}}
+<a href='/beers/beer-{{this.id}}'>
+{{> oneCharacter this}}
+</a>
+  {{/each}}
+
+</div>
